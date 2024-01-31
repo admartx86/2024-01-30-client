@@ -1,16 +1,16 @@
-// Get a resource from 'https://jsonplaceholder.typicode.com/posts/1'
+// Exercise A: Get a resource from 'https://jsonplaceholder.typicode.com/posts/1'
 
 // fetch('https://jsonplaceholder.typicode.com/posts/1')
-//   .then(response => {
-//     if (!response.ok) {
-//       throw new Error('Network response was not ok');
-//     }
-//     return response.json();
-//   })
-//   .then(data => console.log(data))
-//   .catch(error => console.error('Error:', error));
+//     .then(response => {
+//         if (!response.ok) {
+//             throw new Error('Network response was not ok');
+//         }
+//         return response.json();
+//     })
+//     .then(data => console.log(data))
+//     .catch(error => console.error('Error:', error));
 
-// List all resources from 'https://jsonplaceholder.typicode.com/posts'
+// Exercise B: List all resources from 'https://jsonplaceholder.typicode.com/posts'
 
 // fetch('https://jsonplaceholder.typicode.com/posts')
 //   .then(response => {
@@ -22,7 +22,7 @@
 //   .then(data => console.log(data))
 //   .catch(error => console.error('Error:', error));
 
-// Create a resource '{ title: 'foo', body: 'bar', userId: 1 }' at 'https://jsonplaceholder.typicode.com/posts'
+// Exercise C: Create a resource '{ title: 'foo', body: 'bar', userId: 1 }' at 'https://jsonplaceholder.typicode.com/posts'
 
 // fetch('https://jsonplaceholder.typicode.com/posts', {
 //   method: 'POST',
@@ -44,7 +44,7 @@
 //   .then(data => console.log(data))
 //   .catch(error => console.error('Error:', error));
 
-// Update a resource '{ id: 1, title: 'foo', body: 'bar', userId: 1 }' at 'https://jsonplaceholder.typicode.com/posts/1'
+// Exercise D: Update a resource '{ id: 1, title: 'foo', body: 'bar', userId: 1 }' at 'https://jsonplaceholder.typicode.com/posts/1'
 
 // fetch('https://jsonplaceholder.typicode.com/posts/1', {
 //   method: 'PUT',
@@ -67,7 +67,7 @@
 //   .then(data => console.log(data))
 //   .catch(error => console.error('Error:', error));
 
-// Patch a resource '{ title: 'foo' }' at 'https://jsonplaceholder.typicode.com/posts/1'
+// Exercise E: Patch a resource '{ title: 'foo' }' at 'https://jsonplaceholder.typicode.com/posts/1'
 
 // fetch('https://jsonplaceholder.typicode.com/posts/1', {
 //   method: 'PATCH',
@@ -87,7 +87,7 @@
 //   .then(data => console.log(data))
 //   .catch(error => console.error('Error:', error));
 
-// Delete a resource at 'https://jsonplaceholder.typicode.com/posts/1'
+// Exercise F: Delete a resource at 'https://jsonplaceholder.typicode.com/posts/1'
 
 // fetch('https://jsonplaceholder.typicode.com/posts/1', {
 //   method: 'DELETE',
@@ -101,7 +101,7 @@
 //   .then(data => console.log(data))
 //   .catch(error => console.error('Error:', error));
 
-// Filter a resource at 'https://jsonplaceholder.typicode.com/posts?userId=1'
+// Exercise G: Filter a resource at 'https://jsonplaceholder.typicode.com/posts?userId=1'
 
 // fetch('https://jsonplaceholder.typicode.com/posts?userId=1')
 //   .then(response => {
@@ -113,7 +113,7 @@
 //   .then(data => console.log(data))
 //   .catch(error => console.error('Error:', error));
 
-// List a nested resource at 'https://jsonplaceholder.typicode.com/posts/1/comments'
+// Exercise H: List a nested resource at 'https://jsonplaceholder.typicode.com/posts/1/comments'
 
 // fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
 //   .then(response => {
