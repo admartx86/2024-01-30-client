@@ -1,5 +1,7 @@
 // Exercise A: Get a resource from 'https://jsonplaceholder.typicode.com/posts/1'
 
+// ✔ Best Time 3:12.
+
 // fetch('https://jsonplaceholder.typicode.com/posts/1')
 //     .then(response => {
 //         if (!response.ok) {
@@ -9,6 +11,8 @@
 //     })
 //     .then(data => console.log(data))
 //     .catch(error => console.error('Error:', error));
+
+
 
 // Exercise B: List all resources from 'https://jsonplaceholder.typicode.com/posts'
 
