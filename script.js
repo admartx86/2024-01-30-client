@@ -28,6 +28,8 @@
 
 // Exercise C: Create a resource '{ title: 'foo', body: 'bar', userId: 1 }' at 'https://jsonplaceholder.typicode.com/posts'
 
+// ✔ Best Time 3:21.
+
 // fetch('https://jsonplaceholder.typicode.com/posts', {
 //   method: 'POST',
 //   body: JSON.stringify({
